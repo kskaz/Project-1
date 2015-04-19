@@ -51,10 +51,21 @@
 					</ul>
 				</nav>
 			</section>
+			<section class="TOCLesson">
+				<h3><a href="#lesson4">Lesson 4: Introduction to Serious Programming</a></h3>
+				<nav>
+					<ul class="TOCConcepts">
+						<li><a href="#lesson4-1">What is Programming?</a></li>
+						<li><a href="#lesson4-2">Programming Language Vs. Natural Language</a></li>
+						<li><a href="#lesson4-3">Python Grammar</a></li>
+						<li><a href="#lesson4-4">Python Grammar for Arithmetic Expressions</a></li>
+					</ul>
+				</nav>
+			</section>
 		</header>
 
 		<h1>Introduction to Programming Notes</h1>
-		<section class = "lesson_container">
+		<section class = "lesson_container" id="lesson1">
 			<h2>Lesson 1: Basics of the Web</h2>
 			<article class = "concept_container" id="lesson1-1">
 				<h3>The Web</h3>
@@ -161,7 +172,7 @@
 			</article>
 		</section>
 
-		<section class = "lesson_container">
+		<section class = "lesson_container" id="lesson2">
 			<h2>Lesson 2: Webpages, Documents and Structure</h2>
 			<article class = "concept_container" id="lesson2-1">
 				<h3>House Analogy</h3>
@@ -204,8 +215,9 @@
 					</p>
 				</div>
 			</article>
+
 		</section>
-		<section class = "lesson_container">
+		<section class = "lesson_container" id="lesson3">
 			<h2>Lesson 3: Adding CSS Style to HTML Structure</h2>
 			<article class = "concept_container" id="lesson3-1">
 				<h3>Don't Repeat Yourself</h3>
@@ -281,5 +293,49 @@
 				</div>
 			</article>
 		</section>
+
+		<section class = "lesson_container" id="lesson4">
+			<h2>Lesson 4: Introduction to Serious Programming</h2>
+			<article class = "concept_container" id="lesson4-1">
+				<h3>What is Programming?</h3>
+				<div>
+					<p>
+						Programming is the core of computer science. Computer science is all about solving problems by breaking them into smaller pieces and then precisely describing the steps needed to solve each piece. A computer needs programs in order to function. A computer is very versatile in that it can run many types of programs. It is only limited by what we can program. There are many different types of programming languages, and we will be focusing on Python. Python is a high level language and interpreter, which means we write programs for Python and then Python runs them on the computer by translating them into a language that the computer understands.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson4-2">
+				<h3>Programming Language Vs. Natural Language</h3>
+				<div>
+					<p>
+						Natural languages like English do not work well for programming because words can have multiple meanings and people can interpret what is said in many ways. When we program a computer, we want to make sure that the computer understands what we mean, so we need to avoid any chance of ambiguity. Natural languages are also too verbose when explaining concepts. Programming languages allow us to be very concise and precise in telling the computer what to do.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson4-3">
+				<h3>Python Grammar</h3>
+				<div>
+					<p>
+						Like English and other natural languages, Python has its own grammar structure. While you may be able to understand English that is not grammatically correct, programming languages like Python are very strict in their grammar usage. If your program does not follow the grammar rules perfectly, the interpreter will not be able to understand it and it will return syntax errors.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson4-4">
+				<h3>Python Grammar for Arithmetic Expressions</h3>
+				<div>
+					<p>
+						Here are some examples of Python grammar used in arithmetic expressions in Backus-Naur Form. Words in blue indicate non-terminal expressions that can be replaced by either non-terminal or terminal expressions. Words in red indicate terminal expressions that cannot be replaced by other expressions.
+					</p>
+					<ul>
+						<li><span class="bluetext">Expression</span> --> <span class="bluetext">Expression Operator Expression</span></li>
+						<li><span class="bluetext">Expression</span> --> <span class="bluetext">Number</span></li>
+						<li><span class="bluetext">Operator</span> --> <span class="redtext">+</span></li>
+						<li><span class="bluetext">Operator</span> --> <span class="redtext">*</span></li>
+						<li><span class="bluetext">Number</span> --> <span class="redtext">0, 1, 2, ...</span></li>
+					</ul>
+				</div>
+			</article>
+		</section>
+
 	</body>
 	</html>
